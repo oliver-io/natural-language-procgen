@@ -2,7 +2,7 @@
 I'm now releasing this snippet of code under the GNU 3.0 license, making it free *
 to use for any interested parties.  Avail yourself at will. It has been prepped  *
 for use within the code portfolio/resume of Oliver Carrillo and represents his   *
-personal work (and used within the larger RoM2.4b6 codebase. *********************
+personal work (and used within the larger RoM2.4b6 codebase.)*********************
 *********************************************************************************/
 
 
