@@ -1,9 +1,9 @@
-/******************************************************************************
-* The questionable procedural code written by Oliver Carrillo (Saire). Do not *
-* redistribute this code without permission from Oliver Carrillo.  This code  *
-* allows for variable in-game customizations to mobiles and objects and rooms *
-* and such things, in a foolhearted attempt to make the game look interesting.*
-*******************************************************************************/
+/*********************************************************************************
+I'm now releasing this snippet of code under the GNU 3.0 license, making it free *
+to use for any interested parties.  Avail yourself at will. It has been prepped  *
+for use within the code portfolio/resume of Oliver Carrillo and represents his   *
+personal work (and used within the larger RoM2.4b6 codebase. *********************
+*********************************************************************************/
 
 
 #if defined(macintosh)
