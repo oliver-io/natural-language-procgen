@@ -462,7 +462,9 @@ void autogen_dforest(ROOM_INDEX_DATA *room)
 	bool third;
 	int pickone, picktwo, pickthree;
 
-gotoisawesome:
+	//my use of goto here might be controversial but this is just about
+	//the only appropriate use.  it's cleanear than the do while{} here
+	gotoisawesome:
 	strcpy(string, "");
 	conjunct = (number_range(1, 2) - 1);
 	third = 1;
@@ -537,7 +539,9 @@ void autogen_lmarythstreet(ROOM_INDEX_DATA *room)
 	int conjunct;
 	int pickone, picktwo, pickthree;
 
-gotoisawesome:
+	//my use of goto here might be controversial but this is just about
+	//the only appropriate use.  it's cleanear than the do while{} here
+	gotolmarythgen:
 	strcpy(string, "");
 	conjunct = (number_range(1, 2) - 1);
 	pickone = (number_range(1, MAX_PICK_ELEMENT) - 1);
@@ -589,7 +593,7 @@ gotoisawesome:
 	room->gen_description = str_dup(string);
 	procedurally_describe(NULL, NULL, room);
 	if (strlen(room->gen_description) < 200)
-		goto gotoisawesome;
+		goto gotolmarythgen;
 
 	return;
 }
@@ -606,7 +610,7 @@ void autogen_hmarythstreet(ROOM_INDEX_DATA *room)
 	int conjunct;
 	int pickone, picktwo, pickthree;
 
-gotoisawesome:
+	goto hmarythgen:
 	strcpy(string, "");
 	conjunct = (number_range(1, 2) - 1);
 	pickone = (number_range(1, MAX_PICK_ELEMENT) - 1);
@@ -658,7 +662,7 @@ gotoisawesome:
 	room->gen_description = str_dup(string);
 	procedurally_describe(NULL, NULL, room);
 	if (strlen(room->gen_description) < 200)
-		goto gotoisawesome;
+		goto hmarythgen;
 
 	return;
 }
