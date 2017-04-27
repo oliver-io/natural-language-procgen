@@ -1,1 +1,34 @@
-examples to come
+**SEED TEXT:** #autogendforestriver~
+
+**INTERMEDIARY TEXT**: the riverwater runs torrentially here, fast and deep.  Eddies swirl along log-strewn, rocky banks, and to the northwest, the bank is particularly steep.  On both sides, #,dforesttrees
+
+**GENERATED TEXT:** The riverwater runs torrentially here, fast and deep.  Eddies swirl along
+log-strewn, rocky banks, and to the northwest, the bank is particularly
+steep.  On both sides, several maple trees grow here, with wide trunks and a
+wider span.
+
+
+
+
+
+**SEED TEXT:** #autogendforestriverbank~
+
+**INTERMEDIARY TEXT:** #dforestflora The sound of rushing water is loud, from #waterdirection, and a steep riverbank leads down into a narrow, rushing river.  Above, #,dforestground"
+
+**GENERATED TEXT:** Vining over a bushy substrate, grape plants bear clumps of dark and
+fleshy fruit.  The sound of rushing water is loud, from the south, and a
+steep riverbank leads down into a narrow, rushing river.  Above, the twigs,
+grasses and topsoil crinkle and crack at the slightest errant move.
+
+
+
+
+**SEED TEXT**: This squirrel has grown to a #size size, and #furcondition #furcolor fur
+covers its entire body.  The animal is similar in build to a rodent, though
+differentiated by the large and bushy tail that rises behind the squirrel's
+body, almost as tall as the creature itself.
+
+**GENERATED TEXT**: This squirrel has grown to a large size, and smooth brown fur covers its entire
+body.  The animal is similar in build to a rodent, though differentiated by the
+large and bushy tail that rises behind the squirrel's body, almost as tall as
+the creature itself. 
